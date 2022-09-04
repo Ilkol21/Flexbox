@@ -1,0 +1,47 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    margin: 10px;
+    padding: 10px;
+    align-items: flex-start;
+    height: 200px;
+    width: 250px;
+}
+div{
+    border: 1px solid black
+}
+.flex-itemone{
+       width: 80px;
+       margin: 10px;
+    padding: 10px;
+}
+.flex-itemtwo{
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+.flex-itemthree{
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+.flex-itemfour{
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+.flex-itemfive{
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+.order-1{
+    order:1;
+}
+.order-2{
+    order:2;
+}
+.order-3{
+    order:3;
+}

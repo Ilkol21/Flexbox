@@ -1,0 +1,56 @@
+body{
+    display:table;
+    width: 100%;
+}
+div{
+    border: 2px solid black;
+}
+@media (max-device-width:450px) {
+    body{
+    width:98%;
+    display: table;
+    }
+
+}
+@media (min-device-width: 500px) and (max-device-width: 1200px) {
+    body{
+        width: 98%;
+    }
+    .first, .second, .third{
+        display: inline-table;
+    }
+    .third{
+        width: 48.8%;
+        margin-left: 25.4%;
+        margin-top: -23px;
+    }
+    .first{
+        float: left;
+        width: 25%;
+    }
+    .second{
+        float: right;
+        width: 25%;
+    } 
+}
+@media (min-width: 1280px) {
+    body{
+        width: 98%;
+    }
+    .first, .second, .third{
+        display: inline-table;
+    }
+    .third{
+        width: 43.5%;
+        margin-left: 28%;
+        margin-top: -23px;
+    }
+    .first{
+        float: left;
+        width: 25%;
+    }
+    .second{
+        float: right;
+        width: 25%;
+    } 
+}

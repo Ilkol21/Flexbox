@@ -1,0 +1,33 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-item{
+    width: 25%;
+    height: 20%;
+}
+@media screen and (max-width: 400px) {
+    .first, .third{
+        width: 35%;
+        height: 55px;
+    }
+    .second, .four{
+        width: 15%;
+        height: 25%;
+    }
+}
+
+@media screen and (width: 500px){
+    .flex-item{
+        width: 25%;
+        height: 20%;
+    }
+}
+@media screen and (min-width: 600px){
+    .first, .second{
+        width: 18%;
+    }
+    .third, .four{
+        width: 32%;
+    }
+}

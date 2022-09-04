@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    flex-direction: row;
+    align-items: flex-end;
+}
+div{
+    border: 1px solid black;
+}
+.flex-item{
+    width: 60px;
+    height: 40px;
+}
+.center{
+    align-self: center;
+}
+.end {
+    align-self: flex-end;
+}
+.start{
+    align-self: start;
+}
